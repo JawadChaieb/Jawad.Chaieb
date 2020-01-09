@@ -1,0 +1,327 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    background-color: #9b7e67;
+
+}
+
+.foto1 {
+    height: 100%;
+    width: 230px;
+}
+
+.foto2 {
+    height: 70%;
+    width: 245px;
+}
+
+.foto3 {
+    height: 65%;
+    width: 265px;
+}
+
+/* w3schools */
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.soc {
+    text-align: right;
+    height: 0px;
+}
+
+.titel {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+    text-align: left;
+
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* fin */
+h1 {
+    font-size: 35px;
+    float: left;
+    margin-left: 50px;
+    width: 50%;
+    color: white;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-size: cover;
+}
+
+.Logo {
+    padding-bottom: 10px;
+    height: 100px;
+    float: left;
+}
+
+img {
+    float: left;
+    padding-right: 10%;
+    width: auto;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style-type: none;
+
+    overflow: hidden;
+    background-color: #ac8d70;
+    font-size: 25px;
+    color: white;
+}
+
+li {
+    float: left;
+    margin: 3px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: inherit;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+aside {
+    background-color: white;
+    width: 30%;
+    height: 500px;
+}
+
+.flex-container {
+
+    display: flex;
+
+    height: 500px;
+
+    flex-wrap: wrap;
+
+    align-content: flex-start;
+
+    background-color: DodgerBlue;
+
+    width: 70%;
+
+}
+
+.flex {
+
+    display: flex;
+
+    width: 100%;
+
+}
+
+figcaption {
+
+    width: 100%;
+    padding: 60px;
+    height: 400px;
+}
+
+figcaption img {
+    height: 100%;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    float: right;
+    width: 39%;
+}
+
+figcaption .texthome {
+    float: left;
+    padding-top: 25px;
+    width: 60%;
+    font-size: 22px;
+}
+
+.Belangrijkinformatie {
+    font-size: 30px;
+    color: red;
+}
+
+.cas {
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: -10px;
+}
+
+
+
+figure {
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    height: 200px;
+    font-size: 30px;
+    background-color: darkblue;
+}
+
+textarea {
+
+    width: 100%;
+    height: 200px;
+}
+
+address {
+    width: 99%;
+    margin: 5px;
+    text-align: center;
+    height: 70px;
+    font-size: 30px;
+    background-color: darkblue;
+}
+
+selection {
+    float: left;
+    width: 100%;
+    padding: 60px;
+    height: auto;
+    background-color: white;
+}
+
+.gallery {
+    float: left;
+    width: 31%;
+    height: 299px;
+
+    margin: 10px;
+}
+
+article {
+    float: left;
+    width: 31%;
+    height: 299px;
+
+    margin: 10px;
+}
+
+.info {
+    background-color: #1d1d1d;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 50px;
+    padding: 50px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+}
+
+main:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.map {
+    text-align: center;
+}
+
+.flex-container {
+
+    display: flex;
+
+    height: 250px;
+
+    flex-wrap: nowrap;
+
+
+    background-color: DodgerBlue;
+    width: 100%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+@media (max-width:950px) {
+    body {
+        text-align: center;
+    }
+
+    img {
+        size: 50%;
+    }
+}
